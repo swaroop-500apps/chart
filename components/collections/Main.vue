@@ -4,8 +4,8 @@
   
 <script setup>
 import { ref, defineProps, defineEmits } from vue
-import { Bar } from 'vue-chartjs'
-import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
+import VueHighCharts from 'vue3-highcharts'
+
 
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
 

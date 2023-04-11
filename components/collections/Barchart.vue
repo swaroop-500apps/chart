@@ -4,7 +4,7 @@
   
 <script setup>
  import {onMounted, ref , defineProps } from 'vue';
- import Chart from 'chart.js/auto';
+ import VueHighCharts from 'vue3-highcharts'
  const mychartid = ref(null);
  let BarInstance = null;
  const props = defineProps({
